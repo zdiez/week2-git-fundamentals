@@ -1,0 +1,24 @@
+{
+    "name": "week7-npm-lab",
+    "version": "1.0.0",
+    "description": "npm package management lab for WDDM 126",
+    "keywords": [
+        "npm",
+        "package-management",
+        "wddm126"
+    ],
+    "license": "ISC",
+    "author": "Zebv",
+    "type": "commonjs",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "dependencies": {
+        "dayjs": "^1.11.23"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.14"
+    }
+}
